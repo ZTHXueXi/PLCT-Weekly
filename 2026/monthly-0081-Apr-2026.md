@@ -15,6 +15,27 @@
 ## Spidermonkey / Firefox
 
 ## OpenJDK
+1. Authored/Co-authored JDK-mainline PRs:
+- https://github.com/openjdk/jdk/pull/29977 (8378888: jdk/incubator/vector/Float16OperationsBenchmark.java uses wrong package name)
+- https://github.com/openjdk/jdk/pull/30153 (8379564: Hotspot fails to build with gcc 14 after JDK-8378804)
+- https://github.com/openjdk/jdk/pull/30020 (8294152: AArch64: frame::id() and frame::is_older() broken for interpreted frames with large max_stack)
+
+2. Reviewed JDK-mainline PRs:
+- https://github.com/openjdk/jdk/pull/29986 (8378905: RISC-V: fastdebug build fails after JDK-8377554)
+- https://github.com/openjdk/jdk/pull/29836 (8377148: Remove obsolete functions Matcher::is_spillable_arg() and Matcher::interpreter_frame_pointer_reg())
+- https://github.com/openjdk/jdk/pull/30104 (8379372: Enable some vector algorithms IR matching tests for RISC-V)
+- https://github.com/openjdk/jdk/pull/30059 (8378559: Add setting of captured states like errno)
+- https://github.com/openjdk/jdk/pull/30107 (8378985: [lworld] serviceability/sa/TestJhsdbJstackMixedWithXComp.java#xcomp fails with just Test failed!)
+- https://github.com/openjdk/jdk/pull/30136 (8379464: Enable missing stack walking test via jtreg requires for RISC-V)
+- https://github.com/openjdk/jdk/pull/30106 (8379260: C2: Separate volatile barrier and full barrier)
+- https://github.com/openjdk/jdk/pull/30179 (8379710: Enable vector if-conversion IR matching tests for RISC-V)
+- https://github.com/openjdk/jdk/pull/30210 (8367399: C2 SuperWord: add IR rules for MemorySegment cases from JDK-8329077)
+- https://github.com/openjdk/jdk/pull/30250 (8380083: Enable some vector mask cast IR matching tests for RISC-V)
+
+3. Proposed JDK-25u backport PRs:
+- https://github.com/openjdk/jdk25u-dev/pull/332 (8378888: jdk/incubator/vector/Float16OperationsBenchmark.java uses wrong package name)
+- https://github.com/openjdk/jdk25u-dev/pull/339 (8378810: Enable missing FFM test via jtreg requires for RISC-V)
+- https://github.com/openjdk/jdk25u-dev/pull/369 (8379464: Enable missing stack walking test via jtreg requires for RISC-V)
 
 ## Go
 
